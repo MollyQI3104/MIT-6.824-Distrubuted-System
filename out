@@ -1,0 +1,81 @@
+2020/12/10 04:58:00 server0 is created
+2020/12/10 04:58:00 server1 is created
+2020/12/10 04:58:00 server2 is created
+Test (2A): initial election ...
+2020/12/10 04:58:01 server0 start requesting votes!term[1]
+2020/12/10 04:58:01 server0 Got a vote from peer1
+2020/12/10 04:58:01 server0 sending heartbeats!term[1]
+2020/12/10 04:58:01 server0 sending heartbeats!term[1]
+2020/12/10 04:58:01 server0 sending heartbeats!term[1]
+2020/12/10 04:58:02 server0 sending heartbeats!term[1]
+2020/12/10 04:58:02 server0 sending heartbeats!term[1]
+2020/12/10 04:58:02 server0 sending heartbeats!term[1]
+2020/12/10 04:58:03 server0 sending heartbeats!term[1]
+2020/12/10 04:58:03 server0 sending heartbeats!term[1]
+2020/12/10 04:58:03 server0 sending heartbeats!term[1]
+2020/12/10 04:58:03 server0 sending heartbeats!term[1]
+  ... Passed --   3.1  3   22    2148    0
+2020/12/10 04:58:03 server0 is created
+2020/12/10 04:58:03 server1 is created
+2020/12/10 04:58:03 server2 is created
+Test (2A): election after network failure ...
+2020/12/10 04:58:04 server1 start requesting votes!term[1]
+2020/12/10 04:58:04 server1 Got a vote from peer0
+2020/12/10 04:58:04 server1 sending heartbeats!term[1]
+2020/12/10 04:58:04 server1 sending heartbeats!term[1]
+2020/12/10 04:58:04 server2 start requesting votes!term[2]
+2020/12/10 04:58:04 server2 Got a vote from peer0
+2020/12/10 04:58:04 server2 sending heartbeats!term[2]
+2020/12/10 04:58:04 server1 sending heartbeats!term[1]
+2020/12/10 04:58:04 server2 sending heartbeats!term[2]
+2020/12/10 04:58:05 server0 start requesting votes!term[3]
+2020/12/10 04:58:05 server0 Got a vote from peer2
+2020/12/10 04:58:05 server0 sending heartbeats!term[3]
+2020/12/10 04:58:05 server2 sending heartbeats!term[3]
+2020/12/10 04:58:05 server1 sending heartbeats!term[3]
+2020/12/10 04:58:05 server0 sending heartbeats!term[3]
+2020/12/10 04:58:05 server0 start requesting votes!term[4]
+2020/12/10 04:58:05 server0 Got a vote from peer1
+2020/12/10 04:58:05 server0 Got a vote from peer2
+2020/12/10 04:58:05 server0 sending heartbeats!term[4]
+2020/12/10 04:58:05 server0 sending heartbeats!term[4]
+2020/12/10 04:58:06 server1 start requesting votes!term[5]
+2020/12/10 04:58:06 server0 sending heartbeats!term[4]
+2020/12/10 04:58:06 server2 start requesting votes!term[5]
+2020/12/10 04:58:06 server0 sending heartbeats!term[4]
+2020/12/10 04:58:06 server0 sending heartbeats!term[4]
+2020/12/10 04:58:06 server2 time out!
+2020/12/10 04:58:06 server2 start requesting votes!term[6]
+2020/12/10 04:58:07 server0 sending heartbeats!term[4]
+2020/12/10 04:58:07 server0 sending heartbeats!term[4]
+2020/12/10 04:58:07 server0 sending heartbeats!term[4]
+2020/12/10 04:58:08 server0 sending heartbeats!term[4]
+2020/12/10 04:58:08 server1 time out!
+2020/12/10 04:58:08 server1 start requesting votes!term[6]
+2020/12/10 04:58:08 server0 sending heartbeats!term[4]
+2020/12/10 04:58:08 server0 sending heartbeats!term[4]
+2020/12/10 04:58:08 server0 sending heartbeats!term[4]
+2020/12/10 04:58:09 server0 sending heartbeats!term[4]
+2020/12/10 04:58:09 server0 sending heartbeats!term[4]
+2020/12/10 04:58:09 server0 sending heartbeats!term[4]
+2020/12/10 04:58:10 server0 sending heartbeats!term[4]
+2020/12/10 04:58:10 server0 sending heartbeats!term[4]
+2020/12/10 04:58:10 server2 time out!
+2020/12/10 04:58:10 server2 start requesting votes!term[7]
+2020/12/10 04:58:10 server2 Got a vote from peer1
+2020/12/10 04:58:10 server2 sending heartbeats!term[7]
+2020/12/10 04:58:10 server0 sending heartbeats!term[4]
+2020/12/10 04:58:10 server0 start requesting votes!term[8]
+2020/12/10 04:58:10 server0 Got a vote from peer2
+2020/12/10 04:58:10 server0 sending heartbeats!term[8]
+2020/12/10 04:58:10 server2 sending heartbeats!term[8]
+2020/12/10 04:58:11 server0 sending heartbeats!term[8]
+2020/12/10 04:58:11 server0 sending heartbeats!term[8]
+2020/12/10 04:58:11 server0 start requesting votes!term[9]
+2020/12/10 04:58:11 server0 Got a vote from peer2
+2020/12/10 04:58:11 server0 Got a vote from peer1
+2020/12/10 04:58:11 server0 sending heartbeats!term[9]
+2020/12/10 04:58:11 server0 sending heartbeats!term[9]
+  ... Passed --   7.6  3   90    6884    0
+PASS
+ok  	raft	10.735s
